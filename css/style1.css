@@ -64,3 +64,9 @@ nav {
     font-weight: 700;
     transition: all ease 0.6s;
 }
+
+.name{
+    font-family: calibri;
+    width:500px;
+    position: absolute;
+}
