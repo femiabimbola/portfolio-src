@@ -18,6 +18,10 @@ a{
     box-sizing: border-box;
     background-color: #edf1fd;
     position: relative;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
 }
 
 nav {
@@ -78,13 +82,15 @@ nav {
 .name p:nth-child(1),
 .name details{
     color: #6c707c;
-    font-size:16px;
+    font-size:18px;
+    font-family: Poppins;
 }
 
 .name h1{
     font-family: Poppins;
     font-size:40px;
     margin: 0px;
+    font-weight: 600;
     letter-spacing: 3px;
     color: #292929;
 }
@@ -103,3 +109,20 @@ nav {
     background-color: #9c5d90;
     transition: all ease 0.6s;
 }
+
+.social {
+    display: flex;
+    position: absolute;
+    left:50px;
+    bottom: 50px;
+}
+
+.social a{
+    margin:6px 10px
+}
+
+.social i{
+    color:rgba(18, 17, 17, 0.4)
+    font-size: 14px
+}
+    
